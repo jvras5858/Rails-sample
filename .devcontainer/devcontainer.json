@@ -1,0 +1,26 @@
+{
+    "name": "API",
+    "dockerComposeFile": "compose.yml",
+    "service": "ruby_project",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "oderwat.indent-rainbow",
+                "tamasfe.even-better-toml",
+                "humao.rest-client",
+                "Gruntfuggly.todo-tree",
+                "Shopify.ruby-lsp",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "Shopify.ruby-extensions-pack",
+                "ahmadawais.shades-of-purple",
+                "ciarant.vscode-structurizr",
+                "claudineyqr.plantuml-snippets",
+                "Fooo.ruby-spec-runner"
+            ]
+        }
+    },
+    "postCreateCommand": "make"
+}

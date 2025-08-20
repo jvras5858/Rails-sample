@@ -1,0 +1,5 @@
+{
+  "rubyLsp.useBundler": false,
+  "rubyLsp.bundleGemfile": "",
+  "rubyLsp.rubyVersionManager": {}
+}
